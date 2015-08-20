@@ -1,3 +1,19 @@
+rjil-cicd (1:2014.2.224) trusty; urgency=medium
+
+  * Automated build
+  * tempest:
+  * tempest-lib:
+  *   [43aaa77] Merge pull request #4 from afaheem88/rebase
+  *   [89c86e8] Merge branch 'master' of http://github.com/openstack/..
+  *   [6e65782] Updated from global requirements
+  *   [79fa2e0] Updated from global requirements
+  *   [ae0294b] Add std out to ssh exception.
+  *   [672760e] Updated from global requirements
+  *   [08a6d0c] Updated from global requirements
+  *   [71bc71a] Properly decode body before calling json.loads()
+
+ -- Ritesh Raj Sarraf <jiojenkins@jiojenkins01>  Thu, 20 Aug 2015 06:28:58 +0000
+
 rjil-cicd (1:2014.2.220) trusty; urgency=medium
 
   * Automated build
