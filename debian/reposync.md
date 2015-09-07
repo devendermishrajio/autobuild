@@ -11,6 +11,7 @@ It requires following tools:
 It makes package for trusty package.
 
 It does the following:
+
  - It get the repositories.
  - For each repository, it generates head of the repo into manifest file.
  - For each project, it compares if there is any change, then it does packaging.
