@@ -19,3 +19,12 @@ It does the following:
       - Else, it writes the existing head info to git log file.
 
 After that, for each line, it calls dch command. 
+
+### TODO
+- dch
+- dpkg-buildpackage
+- How to use repo command
+- Improve appendix.
+
+## Appendix
+- Install repo command from 'pip install repo'
