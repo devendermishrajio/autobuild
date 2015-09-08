@@ -1,11 +1,14 @@
 # Repo Sync Script
+This script:
+- Generates build log from the repository (using comments from commit) from the updated repository
+- Generates the package source.
 
 ##Dependencies
 It requires following tools:
-- git
+- git: A popular SCM tool which is based on distributed version control.
 - repo
-- dch
-- dpgk-buildpackage
+- dch or debchange: It adds new comment line into the Debian changelog.
+- dpgk-buildpackage: It builds binary or source package from source.
 
 ## What does it do?
 It makes package for trusty package.
@@ -21,11 +24,3 @@ It does the following:
 
 After that, for each line, it calls dch command. 
 
-### TODO
-- dch
-- dpkg-buildpackage
-- How to use repo command
-- Improve appendix.
-
-## Appendix
-- Install repo command from 'pip install repo'
